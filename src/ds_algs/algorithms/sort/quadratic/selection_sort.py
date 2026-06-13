@@ -1,4 +1,4 @@
-def selection_sort(L):
+def selection_sort_ascending(L):
     n = len(L)
     for i in range(n - 1):
         max_j = 0
@@ -10,7 +10,7 @@ def selection_sort(L):
     
     return L
 
-def selection_sort_reverse(L):
+def selection_sort_descending(L):
     n = len(L)
     for i in range(n - 1):
         min_j = 0
